@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(115, 40, 111);
+}
+.box {
+  display: grid;
+}
+.home {
+  height: 3.5rem;
+}
+.welcome {
+  display: flex;
+  justify-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  background-color: rgba(200, 161, 198, 0.595);
+  padding-top: 0;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+.logo {
+  height: 30vh;
+}
+.welcomepara {
+  margin: 1rem;
+  color: #fff;
+  font-family: "Barriecito", cursive;
+  word-spacing: 0.2rem;
+  margin-right: 14rem;
+}
+.welhead {
+  font-size: 5rem;
+  margin: 0;
+}
+.login {
+  color: #ff9647;
+  font-size: 1.3rem;
+}
+.search {
+  height: 2rem;
+}
+.eye {
+  height: 2rem;
+}
