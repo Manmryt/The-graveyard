@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(115, 40, 111);
+}
+.boxxx {
+  display: flex;
+  justify-items: center;
+}
+.search {
+  background-color: rgb(197, 205, 212);
+  color: rgba(0, 0, 0, 0.612);
+  font-family: Barriecito;
+  height: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.eye {
+  height: 3rem;
+  justify-self: flex-end;
+}
+.searchform {
+  display: flex;
+}
+#searchbar {
+  background-color: rgb(197, 205, 212);
+  width: 175vh;
+  height: 3rem;
+  margin-right: 1rem;
+  border: none;
+  font-family: Barriecito;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+#searchbar:hover {
+  border: none;
+}
+.searchbtn {
+  background-color: rgb(197, 205, 212);
+  border: none;
+}
