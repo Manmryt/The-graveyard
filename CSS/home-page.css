@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(115, 40, 111);
+  padding: 0%;
+  margin: 0;
+  height: 300vh;
+}
+.nav-bar {
+  background-color: rgb(255, 219, 88);
+  font-family: "Manrope";
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 0.3rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.menu-icon {
+  padding: 0.35rem;
+}
+.menu-icon-img {
+  height: 2rem;
+  margin: 0;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.nav-itm {
+  color: rgba(0, 0, 0, 0.794);
+  margin: 0.5rem;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+.search-icon {
+  padding: 0.35rem;
+}
+.search-icon-img {
+  height: 2rem;
+  margin: 0;
+}
