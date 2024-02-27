@@ -1,5 +1,6 @@
 body {
   background-color: rgb(115, 40, 111);
+  margin: 0%;
 }
 input {
   font-size: 1.3rem;
@@ -18,6 +19,7 @@ label {
 
 button {
   margin-left: 2vw;
+  margin-bottom: 3vh;
   height: 7vh;
   font-family: Barriecito;
   background-color: rgb(115, 40, 111);
@@ -27,34 +29,47 @@ button {
 form {
   font-family: Barriecito;
 }
-
-#skull {
-  height: 11rem;
-  position: absolute;
-  top: 0vh;
-  right: 60vw;
-}
-#proud {
-  height: 8rem;
-  position: absolute;
-  bottom: 7.5vh;
-  right: 35vw;
+.cont {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
-  background-color: #ec610a;
   padding: 2rem;
-  padding-top: 2rem;
+
   font-family: "Manrope", sans-serif;
-  color: #fff;
+
   font-size: 1.2rem;
-  width: 32vw;
-  position: absolute;
-  top: 11vh;
-  right: 33vw;
-  z-index: -1;
+  width: 95vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Loginbox {
+  background-color: #ec610a;
+  width: 35vw;
   display: flex;
   justify-content: center;
+  color: #fff;
+  position: relative;
+  .skull {
+    height: 24vh;
+    position: absolute;
+    top: -10vh;
+    right: 27vw;
+    z-index: 2;
+  }
+  .proud {
+    height: 19vh;
+    position: absolute;
+    bottom: 0vh;
+    right: 3vw;
+    z-index: 2;
+  }
 }
 .class1,
 .class2,
