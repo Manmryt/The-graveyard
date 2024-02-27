@@ -1,35 +1,6 @@
 body {
   background-color: rgb(115, 40, 111);
 }
-#skull {
-  height: 11rem;
-  position: absolute;
-  top: 0vh;
-  right: 128vh;
-}
-#proud {
-  height: 8rem;
-  position: absolute;
-  bottom: 7.5vh;
-  right: 68vh;
-}
-
-.container {
-  background-color: #ec610a;
-  padding: 2rem;
-  padding-top: 2rem;
-  font-family: "Manrope", sans-serif;
-  color: #fff;
-  font-size: 1.2rem;
-  width: 25rem;
-  position: absolute;
-  top: 11vh;
-  right: 70vh;
-  z-index: -1;
-  display: flex;
-  justify-content: center;
-}
-
 input {
   font-size: 1.3rem;
   margin: 0.2rem;
@@ -46,26 +17,55 @@ label {
 }
 
 button {
-  margin-left: 2rem;
-  height: 3rem;
+  margin-left: 2vw;
+  height: 7vh;
   font-family: Barriecito;
   background-color: rgb(115, 40, 111);
   font-size: 1.2rem;
   border: none;
 }
+form {
+  font-family: Barriecito;
+}
+
+#skull {
+  height: 11rem;
+  position: absolute;
+  top: 0vh;
+  right: 60vw;
+}
+#proud {
+  height: 8rem;
+  position: absolute;
+  bottom: 7.5vh;
+  right: 35vw;
+}
+
+.container {
+  background-color: #ec610a;
+  padding: 2rem;
+  padding-top: 2rem;
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 32vw;
+  position: absolute;
+  top: 11vh;
+  right: 33vw;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+.class1,
+.class2,
+.class3 {
+  margin-bottom: 8vh;
+}
+
 @font-face {
   font-family: "nemo_nightmaresregular";
   src: url("Fonts/nemo_nightmares-webfont.woff") format("woff"),
     url("Fonts/nemo_nightmares-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-}
-form {
-  font-family: Barriecito;
-}
-
-.class1,
-.class2,
-.class3 {
-  margin-bottom: 3rem;
 }
